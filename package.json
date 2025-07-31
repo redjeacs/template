@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "dev": "webpack serve --open --config webpack.dev.js", 
-    "build": "webpack --config webpack.prod.js", 
-    "build:dev": "webpack --config webpack.dev.js", 
-    "predeploy": "npm run build", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "predeploy": "npm run build",
     "deploy": "git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
